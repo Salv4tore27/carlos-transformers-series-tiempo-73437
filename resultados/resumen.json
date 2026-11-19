@@ -1,0 +1,32 @@
+{
+  "Atención aditiva": {
+    "MAE_media": 0.7215237816174825,
+    "MAE_desviacion": 0.0015910912880660506,
+    "RMSE_media": 0.8003073334693909,
+    "RMSE_desviacion": 0.0046461913702561366
+  },
+  "Transformer": {
+    "MAE_media": 0.4238954285780589,
+    "MAE_desviacion": 0.03188942321721586,
+    "RMSE_media": 0.5096572240193685,
+    "RMSE_desviacion": 0.04811328930252961
+  },
+  "Persistencia": {
+    "MAE": 0.26986271142959595,
+    "RMSE": 0.33454057574272156
+  },
+  "configuracion": {
+    "muestra": "serie sintética reproducible; no representa mediciones reales",
+    "n_observaciones": 720,
+    "ventana": 36,
+    "corte_entrenamiento": 576,
+    "n_prueba": 144,
+    "semillas": [
+      13,
+      27,
+      41
+    ],
+    "normalizacion": "media y desviación del tramo previo al corte",
+    "tensorflow": "2.21.0"
+  }
+}
