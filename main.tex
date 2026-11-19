@@ -27,8 +27,8 @@
 \renewcommand{\headrulewidth}{0pt}
 \captionsetup{font=small,labelfont=bf,labelsep=period}
 \newcommand{\student}{Carlos Mario Salvatore Ocampo Aguilar}
-\newcommand{\repo}{\href{https://github.com/Salv4tore27/carlos-transformers-series-tiempo-73437}{repositorio público en GitHub}}
-\newcommand{\colab}{\href{https://colab.research.google.com/drive/162pCXJDeUpa_q_hST-6FBUT8WlL5rwSN}{notebook ejecutado en Google Colab}}
+\newcommand{\repo}{\href{https://github.com/Salv4tore27/carlos-transformers-series-tiempo-73437}{el repositorio público de GitHub}}
+\newcommand{\colab}{\href{https://colab.research.google.com/drive/162pCXJDeUpa_q_hST-6FBUT8WlL5rwSN}{Google Colab}}
 
 \begin{document}
 \begin{titlepage}
@@ -129,7 +129,7 @@ Atención aditiva (media $\pm$ DE) & 0.722 $\pm$ 0.002 & 0.800 $\pm$ 0.005 \\
 Transformer (media $\pm$ DE) & 0.424 $\pm$ 0.032 & 0.510 $\pm$ 0.048 \\
 \bottomrule
 \end{tabular}
-\vspace{0.10in}
+\vspace{0.18in}
 \begin{minipage}{0.88\linewidth}\small\textit{Nota.} DE = desviación estándar entre las semillas 13, 27 y 41. Menor valor indica menor error.\end{minipage}
 \end{table}
 
@@ -157,7 +157,7 @@ Se implementaron dos formas de atención para el análisis de una serie temporal
 En esta ejecución, la persistencia fue el mejor método y el Transformer superó a la atención aditiva, aunque ambos quedaron por debajo de la referencia. La conclusión se apoya en métricas del tramo de prueba y tres semillas, no en la complejidad teórica de cada arquitectura. Los resultados describen únicamente la señal sintética. Para trasladar el método a una aplicación real se requiere una fuente de datos con procedencia, más de un horizonte, análisis de errores por período y validación temporal repetida.
 
 \section*{Código y evidencias}
-El notebook ejecutado en Google Colab está disponible en \colab. El código fuente, el informe y los resultados se organizan en el repositorio: \repo. El notebook genera \texttt{resumen.json}, \texttt{metricas\_semillas.csv}, \texttt{predicciones\_prueba.csv} y las figuras de evidencia. El informe debe compilarse junto con la carpeta \texttt{resultados/}.
+El notebook ejecutado está disponible en \colab. El código fuente, el informe y los resultados se organizan en \repo. El notebook genera \texttt{resumen.json}, \texttt{metricas\_semillas.csv}, \texttt{predicciones\_prueba.csv} y las figuras de evidencia. El informe debe compilarse junto con la carpeta \texttt{resultados/}.
 
 \section*{Referencias}
 \begin{hangparas}{0.5in}{1}
